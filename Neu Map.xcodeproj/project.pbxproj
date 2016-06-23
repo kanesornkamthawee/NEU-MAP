@@ -14,6 +14,7 @@
 		01DA59931D1B95F3002AC48D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01DA59911D1B95F3002AC48D /* LaunchScreen.storyboard */; };
 		01DA599E1D1B95F3002AC48D /* Neu_MapTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01DA599D1D1B95F3002AC48D /* Neu_MapTests.swift */; };
 		01DA59A91D1B95F3002AC48D /* Neu_MapUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01DA59A81D1B95F3002AC48D /* Neu_MapUITests.swift */; };
+		01DA59B71D1B970D002AC48D /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01DA59B61D1B970D002AC48D /* MapKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		01DA59A41D1B95F3002AC48D /* Neu MapUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Neu MapUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		01DA59A81D1B95F3002AC48D /* Neu_MapUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Neu_MapUITests.swift; sourceTree = "<group>"; };
 		01DA59AA1D1B95F3002AC48D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		01DA59B61D1B970D002AC48D /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				01DA59B71D1B970D002AC48D /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,6 +80,7 @@
 		01DA597C1D1B95F3002AC48D = {
 			isa = PBXGroup;
 			children = (
+				01DA59B61D1B970D002AC48D /* MapKit.framework */,
 				01DA59871D1B95F3002AC48D /* Neu Map */,
 				01DA599C1D1B95F3002AC48D /* Neu MapTests */,
 				01DA59A71D1B95F3002AC48D /* Neu MapUITests */,
